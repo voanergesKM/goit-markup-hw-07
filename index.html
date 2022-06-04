@@ -432,52 +432,57 @@
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close" data-modal-close>
-          <svg class="close-icon" width="18" height="18">
+        <button type="button" class="modal__close" data-modal-close>
+          <svg class="modal__close-icon" width="18" height="18">
             <use href="./images/sprite.svg#icon-close-modal"></use>
           </svg>
         </button>
-        <b class="modal-title">Оставьте свои данные, мы вам перезвоним</b>
-        <form class="feedback-form">
-          <div class="feedback-thumb">
-            <label for="name" class="feedback-title">Имя</label>
-            <input type="text" name="name" class="feedback-input" id="name" />
-            <svg width="18" height="18" class="feedback-icon">
+        <b class="modal__title">Оставьте свои данные, мы вам перезвоним</b>
+        <form class="feedback">
+          <div class="feedback__thumb">
+            <label for="name" class="feedback__title">Имя</label>
+            <input type="text" name="name" class="feedback__input" id="name" />
+            <svg width="18" height="18" class="feedback__icon">
               <use href="./images/sprite.svg#icon-person"></use>
             </svg>
           </div>
-          <div class="feedback-thumb">
-            <label for="phone" class="feedback-title">Телефон</label>
-            <input type="tel" name="phone" class="feedback-input" id="phone" />
-            <svg width="18" height="18" class="feedback-icon">
+          <div class="feedback__thumb">
+            <label for="phone" class="feedback__title">Телефон</label>
+            <input type="tel" name="phone" class="feedback__input" id="phone" />
+            <svg width="18" height="18" class="feedback__icon">
               <use href="./images/sprite.svg#icon-telephone"></use>
             </svg>
           </div>
-          <div class="feedback-thumb">
-            <label for="mail" class="feedback-title">Почта</label>
-            <input type="tel" name="phone" class="feedback-input" id="mail" />
-            <svg width="18" height="18" class="feedback-icon">
+          <div class="feedback__thumb">
+            <label for="mail" class="feedback__title">Почта</label>
+            <input type="tel" name="phone" class="feedback__input" id="mail" />
+            <svg width="18" height="18" class="feedback__icon">
               <use href="./images/sprite.svg#icon-mail"></use>
             </svg>
           </div>
-          <div class="feedback-thumb comments">
-            <label for="comment" class="feedback-title">Комментарий</label>
+          <div class="feedback__thumb comment">
+            <label for="comment" class="feedback__title">Комментарий</label>
             <textarea
               name="comment"
               id="comment"
-              class="input-comment"
+              class="comment__input"
               placeholder="Введите текст"
             ></textarea>
           </div>
           <div class="agreement">
-            <label for="agreement" class="agreement-title">
-              <input type="checkbox" name="agreement" id="agreement" class="checkbox" />
-              <span class="icon"></span>
+            <label for="agreement" class="agreement__title">
+              <input
+                type="checkbox"
+                name="agreement"
+                id="agreement"
+                class="agreement__checkbox visualy-hidden"
+              />
+              <span class="agreement__icon"></span>
               Соглашаюсь с рассылкой и принимаю
-              <a href="" class="agreement-link">Условия договора</a></label
+              <a href="" class="agreement__link">Условия договора</a></label
             >
           </div>
-          <button type="submit" class="modal-submit-button">Отправить</button>
+          <button type="submit" class="modal__submit-button btn">Отправить</button>
         </form>
       </div>
     </div>
