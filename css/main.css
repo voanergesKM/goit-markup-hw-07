@@ -43,6 +43,11 @@ img {
   padding-right: 15px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .list {
   list-style: none;
 }
@@ -192,6 +197,86 @@ img {
 .contact-header__contact-icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.hero {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/hero-img.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero__title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  width: 696px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.peculiarity__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.peculiarity__item {
+  -ms-flex-preferred-size: calc(100% / 4 - 30px);
+      flex-basis: calc(100% / 4 - 30px);
+}
+
+.peculiarity__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.peculiarity__thumb {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.peculiarity__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.peculiarity__sub-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.peculiarity__text {
+  line-height: 1.71;
 }
 
 .page-footer {
@@ -357,7 +442,7 @@ img {
   fill: currentColor;
   width: 24px;
   height: 24px;
-  background-image: url(./images/send.svg);
+  background-image: url(../images/send.svg);
 }
 
 .backdrop {
@@ -540,7 +625,7 @@ img {
 
 .agreement__checkbox:checked + .agreement__icon {
   background-color: #2196f3;
-  background-image: url(./images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   border-color: #2196f3;
 }
 
