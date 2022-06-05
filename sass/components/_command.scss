@@ -2,9 +2,6 @@
   background-color: $primary-bg-color;
 }
 
-.command__title {
-}
-
 .command__list {
   display: flex;
   margin: 0 -15px;
@@ -22,9 +19,6 @@
 
   flex-wrap: wrap;
   flex-basis: calc(100% / 4 - 30px);
-}
-
-.command__photo {
 }
 
 .command__name {
@@ -67,7 +61,4 @@
     background-color: $accent-color;
     fill: $color-white;
   }
-}
-
-.social__icon {
 }
