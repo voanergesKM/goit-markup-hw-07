@@ -76,7 +76,8 @@
 
   color: $primary-fontcolor;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: $accent-color;
   }
 }
