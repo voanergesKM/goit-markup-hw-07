@@ -158,7 +158,7 @@
 
   &:checked + .agreement__icon {
     background-color: $accent-color;
-    background-image: url(/images/icon-check.svg);
+    background-image: url(./images/icon-check.svg);
     border-color: $accent-color;
   }
 }

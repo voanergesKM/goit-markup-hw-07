@@ -357,7 +357,7 @@ img {
   fill: currentColor;
   width: 24px;
   height: 24px;
-  background-image: url(/images/send.svg);
+  background-image: url(./images/send.svg);
 }
 
 .backdrop {
@@ -540,7 +540,7 @@ img {
 
 .agreement__checkbox:checked + .agreement__icon {
   background-color: #2196f3;
-  background-image: url(/images/icon-check.svg);
+  background-image: url(./images/icon-check.svg);
   border-color: #2196f3;
 }
 
